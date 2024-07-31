@@ -53,6 +53,6 @@ singularity run  \
 
 
 rm ${SINGULARITY_PULLFOLDER}/fmriprep_24.0.0_$1.sif
-rm -rf ${STUDY_DIR}/derivatives/fmriprep_code/work/fmriprep_24_0_wf/sub_${SUBJECT_ID}_wf
+rm -rf ${STUDY_DIR}/derivatives/nei_code/fmriprep/work/fmriprep_24_0_wf/sub_${SUBJECT_ID}_wf
 exit 0
 EOT
